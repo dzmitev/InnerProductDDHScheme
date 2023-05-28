@@ -10,4 +10,4 @@ In **SchemeTesting_Grades.ipynb** I computed a weighted mean of the grades of so
 
 In **SchemeTesting_LargerNumbers.ipynb** I computed the inner products between random vectors of dimension 100 with individual components less than $10^4$. The goal was to demonstrate that the scheme can be useful in a more realistic environment, where the vectors have higher dimensions and the individual components of the vectors are significantly larger compared to the previous test. 
 
-The measured time results can be found in the image "measured_time.jpg."
+The measured time results can be found in the image "measured_time.jpg".
