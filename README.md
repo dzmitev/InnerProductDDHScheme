@@ -1,4 +1,4 @@
-# Inner Product Scheme based on the DDH assumption
+# Inner Product Scheme Based on the DDH Assumption
 
 As part of my diploma thesis titled "Funkcijsko šifriranje in shema za računanje skalarnih produktov" in Slovenian or "Functional Encrpytion and a Scheme for Computing Inner Products" in English, I implemented the Inner Product scheme based on the DDH assumption from Abdalla, Bourse, De Caro and Pointcheval in Python. I also performed two tests to measure the execution time of the implemented functions. The source code for the scheme can be found in the file **Scheme.py**, while the source code for the tests is available in the files **SchemeTesting_Grades.ipynb** and **SchemeTesting_LargerNumbers.ipynb**.
 
