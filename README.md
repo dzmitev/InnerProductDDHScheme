@@ -14,4 +14,4 @@ The parameter $l$ in this example is 30, since I completed 30 subjects on my und
 
 In **SchemeTesting_LargerNumbers.ipynb** I computed the inner products between random vectors of dimension 100 with individual components less than 10 000 (so $l$ = 100 and $B$ = 10 000). The goal was to demonstrate that the scheme can also be useful in a more realistic environment, where the vectors are of higher dimensions and the individual components of the vectors are significantly larger compared to the previous test. 
 
-In both tests we used 1024-bit safe primes. The measured time results can be found in the image **measured_time.jpg**.
+In both tests we used 1024-bit safe primes. The measured time results can be found in the image **measured__time.jpg**.
