@@ -7,7 +7,7 @@ The operations are performed in the group of quadratic residues modulo a safe pr
 For the computation of the final discrete logarithm, I implemented the Baby-step giant-step algorithm and its source code can also be found in the file **Scheme.py**. 
 
 Since the generation of safe primes and generators of the quadartic residue group is indedependant on $l$ and $B$, I also measured the time needed for that. This is sensible, because in practice once we generate a safe prime and a generator of the quadratic residues group we can use them multiple times.
-The generated safe primes are 1024-bits.
+The generated safe primes are 1024-bits. The source code is in **Testing_SafePrime_Generator.ipynb**.
 
 In **SchemeTesting_RadnomGrades.ipynb** I computed a weighted sum of randomly chosen grades of some student, where the weight of each grade is the amount of ECTS of the corresponding subject. The grades are randomly chosen, but the ECTS credits assigned to each subject represent the ECTS of the subjects I had to complete to finish my bachelor's program, excluding the diploma seminar. 
 The parameter $l$ in this example is 30, since I completed 30 subjects on my undergraduate program, while $B$ is equal to 11, since the maximum possible grade is 10 and no subject was worth more than 10 ECTS. 
